@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-27T19:09:40 EEST" name="Default suite" finished-at="2023-03-27T19:09:58 EEST" duration-ms="17790">
+  <suite started-at="2023-03-27T20:12:42 EEST" name="Default suite" finished-at="2023-03-27T20:13:04 EEST" duration-ms="21765">
     <groups>
     </groups>
-    <test started-at="2023-03-27T19:09:40 EEST" name="Default test" finished-at="2023-03-27T19:09:58 EEST" duration-ms="17790">
-      <class name="Curs10.Homework1">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Curs10.Homework1@1afd44cb]" started-at="2023-03-27T19:09:40 EEST" name="setup" finished-at="2023-03-27T19:09:52 EEST" duration-ms="11494" status="PASS">
+    <test started-at="2023-03-27T20:12:42 EEST" name="Default test" finished-at="2023-03-27T20:13:04 EEST" duration-ms="21765">
+      <class name="curs11.CssSelectorExample">
+        <test-method is-config="true" signature="setup()[pri:0, instance:curs11.CssSelectorExample@1afd44cb]" started-at="2023-03-27T20:12:42 EEST" name="setup" finished-at="2023-03-27T20:12:57 EEST" duration-ms="14515" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ClassNameLocator()[pri:1, instance:Curs10.Homework1@1afd44cb]" started-at="2023-03-27T19:09:52 EEST" name="ClassNameLocator" finished-at="2023-03-27T19:09:52 EEST" duration-ms="237" status="PASS">
+        <test-method signature="cssSelectorTest()[pri:0, instance:curs11.CssSelectorExample@1afd44cb]" started-at="2023-03-27T20:12:57 EEST" name="cssSelectorTest" finished-at="2023-03-27T20:12:58 EEST" duration-ms="737" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClassNameLocator -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Curs10.Homework1@1afd44cb]" started-at="2023-03-27T19:09:52 EEST" name="tearDown" finished-at="2023-03-27T19:09:58 EEST" duration-ms="5945" status="PASS">
+        </test-method> <!-- cssSelectorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:curs11.CssSelectorExample@1afd44cb]" started-at="2023-03-27T20:12:58 EEST" name="tearDown" finished-at="2023-03-27T20:13:04 EEST" duration-ms="6412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Curs10.Homework1 -->
+      </class> <!-- curs11.CssSelectorExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
