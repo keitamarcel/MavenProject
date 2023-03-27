@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Curs9.FirstScript">
+      <class name="curs11.CssSelectorExample">
         <methods>
-          <include name="tearDown"/>
-          <include name="openBrowser"/>
           <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="cssSelectorTest"/>
         </methods>
-      </class> <!-- Curs9.FirstScript -->
+      </class> <!-- curs11.CssSelectorExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
