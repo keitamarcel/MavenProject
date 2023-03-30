@@ -33,7 +33,7 @@ public class TemaCurs11 extends BaseTest {
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		WebElement review = driver.findElement(By.cssSelector("a[href='#tab-reviews']"));
 		review.click();
-		WebElement reviewStar = driver.findElement(By.cssSelector("a[class='#star-4']"));
+		WebElement reviewStar = driver.findElement(By.cssSelector("a[class='star-4']"));
 		reviewStar.click();
 		
 	}
@@ -112,7 +112,7 @@ public class TemaCurs11 extends BaseTest {
 		
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		
-		WebElement reviewStar = driver.findElement(By.cssSelector("p[class*='star selected']>a[class*='star-4 active']"));
+		WebElement reviewStar = driver.findElement(By.cssSelector("a[class='star-4']"));
 		reviewStar.click();
 		
 	}

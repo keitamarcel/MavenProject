@@ -9,10 +9,7 @@
           <include name="tearDown"/>
           <include name="SelectedTest1"/>
           <include name="isSelectedTest"/>
-          <include name="SelectedTest"/>
-          <include name="cssSelector2"/>
           <include name="simpleJsALert"/>
-          <include name="cssSelector7"/>
           <include name="SSelectedTest"/>
         </methods>
       </class> <!-- curs11.TemaCurs11 -->
