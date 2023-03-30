@@ -22,7 +22,7 @@ public class SeleniumLocators2 extends BaseTest{
 
 	@Test(priority = 2)
 	public void cssLocator() {
-		WebElement nameInputFiled =  driver.findElement(By.cssSelector("input[name='your-name']"));
+		WebElement nameInputFiled =  driver.findElement(By.cssSelector("input[name=your-name]"));
 		assertTrue(nameInputFiled.isDisplayed());
 		nameInputFiled.sendKeys("Johnny Bravo");
 	}

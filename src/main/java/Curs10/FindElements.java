@@ -16,7 +16,7 @@ public class FindElements extends BaseTest {
 
 		List<WebElement> books = driver.findElements(By.cssSelector("h3[class*='sc_title']"));
 		System.out.println(books.size());
-		books.get(2).click();
+		books.get(5).click();
 
 
 
