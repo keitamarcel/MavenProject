@@ -6,11 +6,18 @@
       <class name="curs11.TemaCurs11">
         <methods>
           <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="SelectedTest1"/>
           <include name="isSelectedTest"/>
+          <include name="cssLocator4"/>
+          <include name="cssLocator5"/>
+          <include name="SelectedTest"/>
           <include name="simpleJsALert"/>
           <include name="SSelectedTest"/>
+          <include name="tearDown"/>
+          <include name="SelectedTest1"/>
+          <include name="cssLocator6"/>
+          <include name="recordFailure"/>
+          <include name="cssSelector3"/>
+          <include name="cssSelector7"/>
         </methods>
       </class> <!-- curs11.TemaCurs11 -->
     </classes>
