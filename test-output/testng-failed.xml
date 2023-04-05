@@ -3,23 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="curs11.TemaCurs11">
+      <class name="tests.LoginTest">
         <methods>
           <include name="setup"/>
-          <include name="isSelectedTest"/>
-          <include name="cssLocator4"/>
-          <include name="cssLocator5"/>
-          <include name="SelectedTest"/>
-          <include name="simpleJsALert"/>
-          <include name="SSelectedTest"/>
           <include name="tearDown"/>
-          <include name="SelectedTest1"/>
-          <include name="cssLocator6"/>
           <include name="recordFailure"/>
-          <include name="cssSelector3"/>
-          <include name="cssSelector7"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- curs11.TemaCurs11 -->
+      </class> <!-- tests.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
