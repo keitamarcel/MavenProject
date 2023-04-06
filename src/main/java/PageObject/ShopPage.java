@@ -3,6 +3,7 @@ package PageObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 public class ShopPage {
@@ -15,8 +16,19 @@ public class ShopPage {
 	
 	
 	public By dropdown = By.name("orderby");
-	
-	
+	public By sliderInitialPosition=By.cssSelector("span[style='left: 0%;']");
+	public By sliderFinalPosition = By.cssSelector("span[style='left: 100%;']");
+		
+			
+			public void dragAndDrop(By locator,int x, int y) {
+		WebElement element =driver.findElement(locator);
+		Actions action = new Actions(driver);
+		action.dragAndDropBy(element, x, y).perform();
+		
+		//action.click()clickAndHold().moveByOffset(300,y).release().perform();
+		
+		
+	}
 	public void selectByValue(String value) {
 		WebElement orderDropdown = driver.findElement(dropdown);
 		Select selectObj = new Select(orderDropdown);
