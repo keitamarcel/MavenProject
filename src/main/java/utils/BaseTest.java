@@ -23,7 +23,7 @@ public class BaseTest {
 
 	
 public WebDriver driver;
-	
+	public BasePage app;
 	@BeforeClass
 	public void setup() {
 		ChromeOptions chOpt = new ChromeOptions();
@@ -33,7 +33,9 @@ public WebDriver driver;
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://keybooks.ro/");
-	//	driver.get("https://the-internet.herokuapp.com/javascript_alerts");
+	
+		app =new BasePage();
+		//	driver.get("https://the-internet.herokuapp.com/javascript_alerts");
 	}
 
 	@AfterClass
