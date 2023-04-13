@@ -2,35 +2,35 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-10T21:32:09 EEST" name="Default suite" finished-at="2023-04-10T21:32:34 EEST" duration-ms="24396">
+  <suite started-at="2023-04-13T08:19:32 EEST" name="Default suite" finished-at="2023-04-13T08:20:09 EEST" duration-ms="36569">
     <groups>
     </groups>
-    <test started-at="2023-04-10T21:32:09 EEST" name="Default test" finished-at="2023-04-10T21:32:34 EEST" duration-ms="24396">
-      <class name="tests.JsexecutorExample">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.JsexecutorExample@498d318c]" started-at="2023-04-10T21:32:09 EEST" name="setup" finished-at="2023-04-10T21:32:24 EEST" duration-ms="15164" status="PASS">
+    <test started-at="2023-04-13T08:19:32 EEST" name="Default test" finished-at="2023-04-13T08:20:09 EEST" duration-ms="36569">
+      <class name="tests.Tema15">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Tema15@479d31f3]" started-at="2023-04-13T08:19:33 EEST" name="setup" finished-at="2023-04-13T08:19:58 EEST" duration-ms="25944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="jsExample()[pri:0, instance:tests.JsexecutorExample@498d318c]" started-at="2023-04-10T21:32:24 EEST" name="jsExample" finished-at="2023-04-10T21:32:27 EEST" duration-ms="2340" status="PASS">
+        <test-method signature="navigateBlog()[pri:0, instance:tests.Tema15@479d31f3]" started-at="2023-04-13T08:19:59 EEST" name="navigateBlog" finished-at="2023-04-13T08:20:03 EEST" duration-ms="4832" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- jsExample -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:tests.JsexecutorExample@498d318c]" started-at="2023-04-10T21:32:27 EEST" name="recordFailure" finished-at="2023-04-10T21:32:27 EEST" duration-ms="6" status="PASS">
+        </test-method> <!-- navigateBlog -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:tests.Tema15@479d31f3]" started-at="2023-04-13T08:20:03 EEST" name="recordFailure" finished-at="2023-04-13T08:20:03 EEST" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=jsExample status=SUCCESS method=JsexecutorExample.jsExample()[pri:0, instance:tests.JsexecutorExample@498d318c] output={null}]]]>
+                <![CDATA[[TestResult name=navigateBlog status=SUCCESS method=Tema15.navigateBlog()[pri:0, instance:tests.Tema15@479d31f3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.JsexecutorExample@498d318c]" started-at="2023-04-10T21:32:27 EEST" name="tearDown" finished-at="2023-04-10T21:32:34 EEST" duration-ms="6769" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Tema15@479d31f3]" started-at="2023-04-13T08:20:03 EEST" name="tearDown" finished-at="2023-04-13T08:20:09 EEST" duration-ms="5653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.JsexecutorExample -->
+      </class> <!-- tests.Tema15 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
