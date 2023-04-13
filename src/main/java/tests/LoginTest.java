@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import PageObject.LoginPage;
 import PageObject.MenuPage;
 import utils.BaseTest;
+import utils.Log;
 
 public class LoginTest  extends BaseTest {
 	
@@ -20,6 +21,7 @@ public class LoginTest  extends BaseTest {
 		menu.navigateTo(menu.contactsLink);
 		menu.navigateTo(menu.loginLink);
 		
+		Log.info("Test logging");
 		LoginPage login = new LoginPage(driver);
 		login.loginInApp(username,password);
 		

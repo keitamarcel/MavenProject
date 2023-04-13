@@ -1,0 +1,30 @@
+20:12:23.039 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:12:23.051 [main] INFO  utils.Log - Started test :selectByIndex
+20:12:23.051 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:12:23.054 [main] INFO  utils.Log - Start time :2023.04.13.20.12.23
+20:12:23.055 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:12:25.704 [main] ERROR utils.Log - org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 10
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: driver.version: unknown
+20:12:26.188 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:12:26.188 [main] INFO  utils.Log - Started test :selectByValueTest
+20:12:26.189 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:12:26.189 [main] INFO  utils.Log - Start time :2023.04.13.20.12.26
+20:12:26.190 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:12:28.863 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:12:28.863 [main] INFO  utils.Log - Passed test :selectByValueTest
+20:12:28.864 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:12:28.864 [main] INFO  utils.Log - End time :2023.04.13.20.12.28
+20:12:28.864 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:12:28.869 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:12:28.869 [main] INFO  utils.Log - Started test :selectByVisibleText
+20:12:28.869 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:12:28.870 [main] INFO  utils.Log - Start time :2023.04.13.20.12.28
+20:12:28.870 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:12:31.032 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:12:31.033 [main] INFO  utils.Log - Passed test :selectByVisibleText
+20:12:31.033 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:12:31.034 [main] INFO  utils.Log - End time :2023.04.13.20.12.31
+20:12:31.034 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++

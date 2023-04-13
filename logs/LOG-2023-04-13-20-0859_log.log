@@ -1,0 +1,30 @@
+20:08:59.407 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:08:59.417 [main] INFO  utils.Log - Started test :selectByIndex
+20:08:59.417 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:08:59.420 [main] INFO  utils.Log - Start time :2023.04.13.20.08.59
+20:08:59.421 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:09:05.926 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:09:05.927 [main] INFO  utils.Log - Passed test :selectByIndex
+20:09:05.927 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:09:05.928 [main] INFO  utils.Log - End time :2023.04.13.20.09.05
+20:09:05.929 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:09:05.944 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:09:05.945 [main] INFO  utils.Log - Started test :selectByValueTest
+20:09:05.945 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:09:05.946 [main] INFO  utils.Log - Start time :2023.04.13.20.09.05
+20:09:05.946 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:09:09.355 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:09:09.355 [main] INFO  utils.Log - Passed test :selectByValueTest
+20:09:09.356 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:09:09.357 [main] INFO  utils.Log - End time :2023.04.13.20.09.09
+20:09:09.358 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:09:09.361 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:09:09.362 [main] INFO  utils.Log - Started test :selectByVisibleText
+20:09:09.362 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:09:09.363 [main] INFO  utils.Log - Start time :2023.04.13.20.09.09
+20:09:09.363 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:09:11.740 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:09:11.741 [main] INFO  utils.Log - Passed test :selectByVisibleText
+20:09:11.741 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+20:09:11.741 [main] INFO  utils.Log - End time :2023.04.13.20.09.11
+20:09:11.742 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
