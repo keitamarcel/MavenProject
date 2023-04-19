@@ -1,113 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-13T20:12:07 EEST" name="Default suite" finished-at="2023-04-13T20:12:38 EEST" duration-ms="30987">
+  <suite started-at="2023-04-19T08:10:54 EEST" name="Default suite" finished-at="2023-04-19T08:11:25 EEST" duration-ms="31542">
     <groups>
     </groups>
-    <test started-at="2023-04-13T20:12:07 EEST" name="Default test" finished-at="2023-04-13T20:12:38 EEST" duration-ms="30987">
-      <class name="tests.DropdownExample">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DropdownExample@61862a7f]" started-at="2023-04-13T20:12:07 EEST" name="setup" finished-at="2023-04-13T20:12:23 EEST" duration-ms="15895" status="PASS">
+    <test started-at="2023-04-19T08:10:54 EEST" name="Default test" finished-at="2023-04-19T08:11:25 EEST" duration-ms="31542">
+      <class name="tests.Tema15">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Tema15@402bba4f]" started-at="2023-04-19T08:10:54 EEST" name="setup" finished-at="2023-04-19T08:11:10 EEST" duration-ms="16335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="selectByIndex()[pri:0, instance:tests.DropdownExample@61862a7f]" started-at="2023-04-13T20:12:23 EEST" name="selectByIndex" finished-at="2023-04-13T20:12:25 EEST" duration-ms="2665" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate option with index: 10
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 10
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:305)
-at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:179)
-at PageObject.ShopPage.selectByIndex(ShopPage.java:43)
-at tests.DropdownExample.selectByIndex(DropdownExample.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="navigateBlog()[pri:0, instance:tests.Tema15@402bba4f]" started-at="2023-04-19T08:11:10 EEST" name="navigateBlog" finished-at="2023-04-19T08:11:19 EEST" duration-ms="9135" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectByIndex -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:tests.DropdownExample@61862a7f]" started-at="2023-04-13T20:12:25 EEST" name="recordFailure" finished-at="2023-04-13T20:12:26 EEST" duration-ms="460" status="PASS">
+        </test-method> <!-- navigateBlog -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:tests.Tema15@402bba4f]" started-at="2023-04-19T08:11:19 EEST" name="recordFailure" finished-at="2023-04-19T08:11:19 EEST" duration-ms="14" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=selectByIndex status=FAILURE method=DropdownExample.selectByIndex()[pri:0, instance:tests.DropdownExample@61862a7f] output={null}]]]>
+                <![CDATA[[TestResult name=navigateBlog status=SUCCESS method=Tema15.navigateBlog()[pri:0, instance:tests.Tema15@402bba4f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method signature="selectByValueTest()[pri:0, instance:tests.DropdownExample@61862a7f]" started-at="2023-04-13T20:12:26 EEST" name="selectByValueTest" finished-at="2023-04-13T20:12:28 EEST" duration-ms="2675" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectByValueTest -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:tests.DropdownExample@61862a7f]" started-at="2023-04-13T20:12:28 EEST" name="recordFailure" finished-at="2023-04-13T20:12:28 EEST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=selectByValueTest status=SUCCESS method=DropdownExample.selectByValueTest()[pri:0, instance:tests.DropdownExample@61862a7f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- recordFailure -->
-        <test-method signature="selectByVisibleText()[pri:0, instance:tests.DropdownExample@61862a7f]" started-at="2023-04-13T20:12:28 EEST" name="selectByVisibleText" finished-at="2023-04-13T20:12:31 EEST" duration-ms="2163" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectByVisibleText -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:tests.DropdownExample@61862a7f]" started-at="2023-04-13T20:12:31 EEST" name="recordFailure" finished-at="2023-04-13T20:12:31 EEST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=selectByVisibleText status=SUCCESS method=DropdownExample.selectByVisibleText()[pri:0, instance:tests.DropdownExample@61862a7f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DropdownExample@61862a7f]" started-at="2023-04-13T20:12:31 EEST" name="tearDown" finished-at="2023-04-13T20:12:38 EEST" duration-ms="6997" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Tema15@402bba4f]" started-at="2023-04-19T08:11:19 EEST" name="tearDown" finished-at="2023-04-19T08:11:25 EEST" duration-ms="5894" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.DropdownExample -->
+      </class> <!-- tests.Tema15 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

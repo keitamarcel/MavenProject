@@ -31,7 +31,7 @@ public class DropdownExample extends BaseTest{
 		ShopPage shop =  new ShopPage(driver);
 		
 		menu.navigateTo(menu.shopLink);
-		shop.selectByIndex(10);
+		shop.selectByIndex(3);
 		assertEquals(shop.getSelectedOption(), "Sort by latest");
 		assertEquals(driver.getCurrentUrl(), "https://keybooks.ro/shop/?orderby=date");
 	}

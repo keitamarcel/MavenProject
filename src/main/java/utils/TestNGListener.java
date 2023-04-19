@@ -11,7 +11,11 @@ public class TestNGListener implements IResultListener{
 	@Override
 	public void onTestStart(ITestResult result) {
 		Log.info("+++++++++++++++++++++++++++++++++");
-		Log.info("Started test :" + result.getMethod().getMethodName());
+		//clasa + metoda
+		Log.info("Started test :" + result.getTestClass().getRealClass().getSimpleName()+" - "+result.getMethod().getMethodName());
+		//pentru numele clasei care ruleaza
+		Log.info(result.getTestClass().getRealClass().getSimpleName());
+		
 		Log.info("+++++++++++++++++++++++++++++++++");
 		String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 		Log.info("Start time :" + timestamp);
