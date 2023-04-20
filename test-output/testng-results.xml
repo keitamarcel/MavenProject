@@ -1,117 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-20T16:12:17 EEST" name="Default suite" finished-at="2023-04-20T16:12:57 EEST" duration-ms="39808">
+  <suite started-at="2023-04-20T20:12:43 EEST" name="Default suite" finished-at="2023-04-20T20:13:02 EEST" duration-ms="19183">
     <groups>
     </groups>
-    <test started-at="2023-04-20T16:12:17 EEST" name="Default test" finished-at="2023-04-20T16:12:57 EEST" duration-ms="39808">
-      <class name="tests.Tema16doi">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Tema16doi@795cd85e]" started-at="2023-04-20T16:12:17 EEST" name="setup" finished-at="2023-04-20T16:12:32 EEST" duration-ms="15331" status="PASS">
+    <test started-at="2023-04-20T20:12:43 EEST" name="Default test" finished-at="2023-04-20T20:13:02 EEST" duration-ms="19183">
+      <class name="tests.XpathExample2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.XpathExample2@402bba4f]" started-at="2023-04-20T20:12:43 EEST" name="setup" finished-at="2023-04-20T20:12:53 EEST" duration-ms="10333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="navigateBooks()[pri:1, instance:tests.Tema16doi@795cd85e]" started-at="2023-04-20T16:12:32 EEST" name="navigateBooks" finished-at="2023-04-20T16:12:40 EEST" duration-ms="7413" status="PASS">
+        <test-method signature="xpathExample()[pri:0, instance:tests.XpathExample2@402bba4f]" started-at="2023-04-20T20:12:53 EEST" name="xpathExample" finished-at="2023-04-20T20:12:54 EEST" duration-ms="1012" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateBooks -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:tests.Tema16doi@795cd85e]" started-at="2023-04-20T16:12:40 EEST" name="recordFailure" finished-at="2023-04-20T16:12:40 EEST" duration-ms="13" status="PASS">
+        </test-method> <!-- xpathExample -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:tests.XpathExample2@402bba4f]" started-at="2023-04-20T20:12:54 EEST" name="recordFailure" finished-at="2023-04-20T20:12:54 EEST" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=navigateBooks status=SUCCESS method=Tema16doi.navigateBooks()[pri:1, instance:tests.Tema16doi@795cd85e] output={null}]]]>
+                <![CDATA[[TestResult name=xpathExample status=SUCCESS method=XpathExample2.xpathExample()[pri:0, instance:tests.XpathExample2@402bba4f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method signature="Displayed()[pri:2, instance:tests.Tema16doi@795cd85e]" started-at="2023-04-20T16:12:40 EEST" name="Displayed" finished-at="2023-04-20T16:12:50 EEST" duration-ms="10348" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product_title entry-title']"}
-  (Session info: chrome=112.0.5615.122)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b6a61dc28b67e9755f7cd90b5ebbbf63, findElement {using=xpath, value=//div[@class='product_title entry-title']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.122, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\hm\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:64864}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64864/devtoo..., se:cdpVersion: 112.0.5615.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b6a61dc28b67e9755f7cd90b5ebbbf63]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product_title entry-title']"}
-  (Session info: chrome=112.0.5615.122)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b6a61dc28b67e9755f7cd90b5ebbbf63, findElement {using=xpath, value=//div[@class='product_title entry-title']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.122, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\hm\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:64864}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64864/devtoo..., se:cdpVersion: 112.0.5615.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b6a61dc28b67e9755f7cd90b5ebbbf63
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at tests.Tema16doi.Displayed(Tema16doi.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Displayed -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:tests.Tema16doi@795cd85e]" started-at="2023-04-20T16:12:50 EEST" name="recordFailure" finished-at="2023-04-20T16:12:51 EEST" duration-ms="641" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Displayed status=FAILURE method=Tema16doi.Displayed()[pri:2, instance:tests.Tema16doi@795cd85e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Tema16doi@795cd85e]" started-at="2023-04-20T16:12:51 EEST" name="tearDown" finished-at="2023-04-20T16:12:57 EEST" duration-ms="5912" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.XpathExample2@402bba4f]" started-at="2023-04-20T20:12:54 EEST" name="tearDown" finished-at="2023-04-20T20:13:02 EEST" duration-ms="7740" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.Tema16doi -->
+      </class> <!-- tests.XpathExample2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

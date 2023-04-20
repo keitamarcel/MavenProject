@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.Tema16doi">
+      <class name="tests.XpathExample2">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="recordFailure"/>
-          <include name="Displayed"/>
+          <include name="xpathExample"/>
         </methods>
-      </class> <!-- tests.Tema16doi -->
+      </class> <!-- tests.XpathExample2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
