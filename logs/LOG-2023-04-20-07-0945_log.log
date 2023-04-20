@@ -1,0 +1,33 @@
+07:09:45.260 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+07:09:45.283 [main] INFO  utils.Log - Started test :DropdownExample - selectByIndex
+07:09:45.284 [main] INFO  utils.Log - DropdownExample
+07:09:45.285 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+07:09:45.292 [main] INFO  utils.Log - Start time :2023.04.20.07.09.45
+07:09:45.294 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+07:09:53.615 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+07:09:53.615 [main] INFO  utils.Log - Passed test :selectByIndex
+07:09:53.620 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+07:09:53.622 [main] INFO  utils.Log - End time :2023.04.20.07.09.53
+07:09:53.622 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+07:09:53.640 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+07:09:53.641 [main] INFO  utils.Log - Started test :DropdownExample - selectByValueTest
+07:09:53.642 [main] INFO  utils.Log - DropdownExample
+07:09:53.643 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+07:09:53.644 [main] INFO  utils.Log - Start time :2023.04.20.07.09.53
+07:09:53.645 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+07:09:57.333 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+07:09:57.333 [main] INFO  utils.Log - Passed test :selectByValueTest
+07:09:57.334 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+07:09:57.336 [main] INFO  utils.Log - End time :2023.04.20.07.09.57
+07:09:57.337 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+07:09:57.344 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+07:09:57.345 [main] INFO  utils.Log - Started test :DropdownExample - selectByVisibleText
+07:09:57.346 [main] INFO  utils.Log - DropdownExample
+07:09:57.347 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+07:09:57.348 [main] INFO  utils.Log - Start time :2023.04.20.07.09.57
+07:09:57.349 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+07:10:00.518 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+07:10:00.519 [main] INFO  utils.Log - Passed test :selectByVisibleText
+07:10:00.519 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+07:10:00.525 [main] INFO  utils.Log - End time :2023.04.20.07.10.00
+07:10:00.527 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++

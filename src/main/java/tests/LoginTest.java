@@ -10,7 +10,6 @@ import PageObject.LoginPage;
 import PageObject.MenuPage;
 import utils.BaseTest;
 import utils.Log;
-
 public class LoginTest  extends BaseTest {
 	
 	@Parameters({"user","pass"})

@@ -28,7 +28,7 @@ public class MenuPage {
 	public By postFormatsLink= By.linkText("Post Formats");
 	public By searchIcon=By.cssSelector("button[class*='search_submit']");
 	public By searchField =  By.cssSelector("input[class='search_field']");
-	
+	public By classicLink= By.linkText("Classic");
 	
 	public void hoverElement(By locator) {
 		WebElement element = driver.findElement(locator);
